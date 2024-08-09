@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--background);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 10px;
+  color: var(--text);
+}
+
+.menu-btn {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: var(--text);
+  font-size: 1em;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.menu li a:hover,
+.menu li a:active {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: var(--accent);
+}
+
+button {
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  margin-right: 5px;
+  margin-left: 15px;
+  padding-top: 5px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--button-background);
+  outline: none;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: var(--button-hover-background);
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  .menu-btn:checked + .menu-icon + .menu {
+    display: flex;
+  }
+}
