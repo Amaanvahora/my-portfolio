@@ -3,49 +3,45 @@
   font-style: normal;
   font-weight: 400;
   src: local("Agustina Regular"),
-    url(/my-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff)
-      format("woff");
+    url(/static/media/Agustina.eb0c59dda4cc308cba96.woff) format("woff");
 }
 @font-face {
   font-family: Montserrat;
   src: local("Montserrat"),
-    url(/my-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf)
+    url(/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf)
       format("woff");
 }
 @font-face {
   font-family: Google Sans Bold;
   src: local("Google Sans Bold"),
-    url(/my-portfolio/static/media/GoogleSans-Bold.d907e4bf3e32637a636e.ttf)
-      format("woff");
+    url(/static/media/GoogleSans-Bold.d907e4bf3e32637a636e.ttf) format("woff");
 }
 @font-face {
   font-family: Google Sans Bold Italic;
   src: local("Google Sans Bold Italic"),
-    url(/my-portfolio/static/media/GoogleSans-BoldItalic.d282e9c31d0f894a7f06.ttf)
+    url(/static/media/GoogleSans-BoldItalic.d282e9c31d0f894a7f06.ttf)
       format("woff");
 }
 @font-face {
   font-family: Google Sans Italic;
   src: local("Google Sans Italic"),
-    url(/my-portfolio/static/media/GoogleSans-Italic.40bb50bd202405745006.ttf)
-      format("woff");
+    url(/static/media/GoogleSans-Italic.40bb50bd202405745006.ttf) format("woff");
 }
 @font-face {
   font-family: Google Sans Medium;
   src: local("Google Sans Medium"),
-    url(/my-portfolio/static/media/GoogleSans-Medium.963c3e555aaada9ef8a9.ttf)
-      format("woff");
+    url(/static/media/GoogleSans-Medium.963c3e555aaada9ef8a9.ttf) format("woff");
 }
 @font-face {
   font-family: Google Sans Medium Italic;
   src: local("Google Sans Medium Italic"),
-    url(/my-portfolio/static/media/GoogleSans-MediumItalic.56d4f777a7997e5a10b3.ttf)
+    url(/static/media/GoogleSans-MediumItalic.56d4f777a7997e5a10b3.ttf)
       format("woff");
 }
 @font-face {
   font-family: Google Sans Regular;
   src: local("Google Sans Regular"),
-    url(/my-portfolio/static/media/GoogleSans-Regular.bec0591b6a291c3ca895.ttf)
+    url(/static/media/GoogleSans-Regular.bec0591b6a291c3ca895.ttf)
       format("woff");
 }
 code {
@@ -6630,16 +6626,13 @@ body {
   font-family: Font Awesome\5 Brands;
   font-style: normal;
   font-weight: 400;
-  src: url(/my-portfolio/static/media/fa-brands-400.b09f783b99c88d6989f7.eot);
-  src: url(/my-portfolio/static/media/fa-brands-400.b09f783b99c88d6989f7.eot?#iefix)
+  src: url(/static/media/fa-brands-400.b09f783b99c88d6989f7.eot);
+  src: url(/static/media/fa-brands-400.b09f783b99c88d6989f7.eot?#iefix)
       format("embedded-opentype"),
-    url(/my-portfolio/static/media/fa-brands-400.1c638e5f7632ea819e77.woff2)
-      format("woff2"),
-    url(/my-portfolio/static/media/fa-brands-400.dc957891d535aa198135.woff)
-      format("woff"),
-    url(/my-portfolio/static/media/fa-brands-400.ec7723ea62ad74c14959.ttf)
-      format("truetype"),
-    url(/my-portfolio/static/media/fa-brands-400.d21386c92d7f4fbf03dc.svg#fontawesome)
+    url(/static/media/fa-brands-400.1c638e5f7632ea819e77.woff2) format("woff2"),
+    url(/static/media/fa-brands-400.dc957891d535aa198135.woff) format("woff"),
+    url(/static/media/fa-brands-400.ec7723ea62ad74c14959.ttf) format("truetype"),
+    url(/static/media/fa-brands-400.d21386c92d7f4fbf03dc.svg#fontawesome)
       format("svg");
 }
 .fab {
@@ -6650,16 +6643,14 @@ body {
   font-family: Font Awesome\5 Free;
   font-style: normal;
   font-weight: 400;
-  src: url(/my-portfolio/static/media/fa-regular-400.86ce78132c18df414d83.eot);
-  src: url(/my-portfolio/static/media/fa-regular-400.86ce78132c18df414d83.eot?#iefix)
+  src: url(/static/media/fa-regular-400.86ce78132c18df414d83.eot);
+  src: url(/static/media/fa-regular-400.86ce78132c18df414d83.eot?#iefix)
       format("embedded-opentype"),
-    url(/my-portfolio/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2)
-      format("woff2"),
-    url(/my-portfolio/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff)
-      format("woff"),
-    url(/my-portfolio/static/media/fa-regular-400.235a1aa30ba10c7d00d0.ttf)
+    url(/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2) format("woff2"),
+    url(/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff) format("woff"),
+    url(/static/media/fa-regular-400.235a1aa30ba10c7d00d0.ttf)
       format("truetype"),
-    url(/my-portfolio/static/media/fa-regular-400.68bba3adb61c08195530.svg#fontawesome)
+    url(/static/media/fa-regular-400.68bba3adb61c08195530.svg#fontawesome)
       format("svg");
 }
 .far {
@@ -6670,16 +6661,13 @@ body {
   font-family: Font Awesome\5 Free;
   font-style: normal;
   font-weight: 900;
-  src: url(/my-portfolio/static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot);
-  src: url(/my-portfolio/static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot?#iefix)
+  src: url(/static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot);
+  src: url(/static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot?#iefix)
       format("embedded-opentype"),
-    url(/my-portfolio/static/media/fa-solid-900.4a83f63fd7dd55c4ca85.woff2)
-      format("woff2"),
-    url(/my-portfolio/static/media/fa-solid-900.3ef4f1acb44a2df412bf.woff)
-      format("woff"),
-    url(/my-portfolio/static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf)
-      format("truetype"),
-    url(/my-portfolio/static/media/fa-solid-900.decfdcb63165be4a18b6.svg#fontawesome)
+    url(/static/media/fa-solid-900.4a83f63fd7dd55c4ca85.woff2) format("woff2"),
+    url(/static/media/fa-solid-900.3ef4f1acb44a2df412bf.woff) format("woff"),
+    url(/static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf) format("truetype"),
+    url(/static/media/fa-solid-900.decfdcb63165be4a18b6.svg#fontawesome)
       format("svg");
 }
 .fa,
@@ -6691,4 +6679,4 @@ body {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.45c57bd4.css.map*/
+/*# sourceMappingURL=main.673f4c21.css.map*/

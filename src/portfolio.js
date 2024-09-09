@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1Ru3cqTwaxF__gFjEJ-JvYNloefm4e6lJ/view?usp=sharing",
+    "https://drive.google.com/file/d/1GOmzI33Fpp6UrK91YNj20jRX6kkIUfzs/view?usp=sharing",
   mail: "mailto:amaanvahora7294@gmail.com",
 };
 
@@ -469,7 +469,7 @@ const experience = {
           company: "Lytikal Insights",
           company_url: "https://www.lytikal.com/",
           logo_path: "lytikal.png",
-          duration: "Apirl 2022 - Dec 2022",
+          duration: "Apirl 2021 - Dec 2021",
           location: "Work From Home",
           description:
             "Developed 15+ front-end and back-end web pages utilizing Vue.js, Python, Flask, MySQL, Rest API, and Node.js.Execute projects in entirety from feature specification, through architecture, design, implementation, and validation.Fetched data from various APIs using Python, and Flask and displayed it on the screen in the front-end.Deploy code in production, debug, and fix production issues.Constructively collaborate with the team during requirements gathering, feature specification, design and code reviews. Benchmark performance, identify bottlenecks, troubleshoot and improve system. Performance.Handle customer support and operations escalations design and code reviews.",
